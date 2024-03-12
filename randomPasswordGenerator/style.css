@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.5);
+    border-radius: 8px;
+}
+
+#title {
+    color: darkgreen;
+    text-align: center;
+}
+
+#functions {
+    text-align: center;
+    margin: 20px;
+}
+
+#digitNumber {
+    width: 100px;
+    height: 30px;
+}
+
+.button {
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid rgb(57, 57, 196);
+    background-color: white;
+}
+
+.button:hover {
+    background-color: rgb(57, 57, 196);
+    color: white;
+    cursor: pointer;
+}
+
+.button.active {
+    background-color: rgb(57, 57, 196);
+    color: white;
+    cursor: pointer;
+}
+
+#generator {
+    background-color: darkgreen;
+    color: white;
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+#generator:hover {
+    background-color: rgb(31, 133, 31);
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    margin-bottom: 20px;
+}
