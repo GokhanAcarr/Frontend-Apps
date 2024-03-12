@@ -38,7 +38,7 @@ function generatePassword() {
     if (digitNumber > 16) {
         digitNumber = 16;
     }
-    var generatedPassword = password.slice(0, 16);
+    var generatedPassword = password.slice(0, digitNumber);
 
     resultDiv.textContent = generatedPassword;
 }
